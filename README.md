@@ -35,7 +35,7 @@ This work aims to implement a **brain-inspired SNN** to detect handwritten digit
 
 ##  Project Diagram
 
-![SNN on FPGA Diagram](./assets/snn_fpga_block_diagram.png) <!-- replace with actual image path -->
+![image](https://github.com/user-attachments/assets/3ac95d60-c670-4430-9d43-f3d4798a1f86)
 
 ---
 
