@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../number_determination.srcs/sources_1/new" \
+"../../../../number_determination.srcs/sources_1/new/activation.v" \
+"../../../../number_determination.srcs/sources_1/new/controller_fsm.v" \
+"../../../../number_determination.srcs/sources_1/new/dot_product.v" \
+"../../../../number_determination.srcs/sources_1/new/rom_hidden2_output.v" \
+"../../../../number_determination.srcs/sources_1/new/rom_input_hidden1.v" \
+"../../../../number_determination.srcs/sources_1/new/top_module.v" \
+"../../../../number_determination.srcs/sim_1/new/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
